@@ -1,0 +1,181 @@
+/* Making the page responsive */
+/* for smaller device */
+@media screen and (max-width:425px) {
+    
+    .banner-item-container,
+    .funny-videos-container,
+    .pgo-item-container,
+    nav
+    ,nav ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pgo-item-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .we-are-gamers{
+        width: 100%;
+    }
+    
+    .we-are-gamers-item-container{
+        flex-direction: column-reverse;
+        width: 100%;
+      text-align: center;
+    }
+
+    .we-are-gamers-image-container{
+        width: 100%;
+    }
+
+    .we-are-gamers-content{
+        width: 100%;
+    }
+    nav{
+        width: fit-content;
+        gap:0px
+    }
+
+    .banner{
+        gap: 0px;
+    }
+
+    .footer ul{
+        flex-wrap: wrap;
+    }
+
+    .game-genre{
+        width: 100%;
+    }
+    .genre-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .banner{
+        background-image: none;
+    }
+
+    .banner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-list ul{
+        margin-left: 10px;
+    }
+    
+    .banner-image{
+        width: 100%;
+    }
+
+    .footer-item-container{
+        width: 0%;
+    }
+
+    .footer-item-container ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer-list-3 ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* for medium device */
+@media screen and (max-width:768px){
+    .play-games-online
+    ,.banner-item-container
+    ,.funny-videos
+    ,nav{
+        flex-direction: column;
+    }
+
+    .banner-item-container{
+        text-align: center;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .we-are-gamers{
+        display: none;
+    }
+    .funny-videos{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 60px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    
+    .funny-videos-item-container{
+        text-align: left;
+    }
+    .banner{
+        white-space: nowrap;
+        padding:0px;
+    }
+    .play-games-online{
+        margin-bottom: 0px;
+    }
+    .pgo-item-container{
+        margin-top: 0px;
+        margin-left: 90px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pgo-image-container{
+        width: 100%;
+    }
+    .video span{
+        top:10%;
+        left: 20%;
+    }
+    .banner-content{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .we-are-gamers{
+        width: 50%;
+    }
+    .we-are-gamers img{
+        width: 100%;
+    }
+    .we-are-gamers-content{
+        text-align: center;
+    }
+
+    .genre{
+        padding: 10px;
+    }
+
+    .footer-item-container{
+        width: 0%;
+    }
+
+    .footer-item-container ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer-list-3 ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
